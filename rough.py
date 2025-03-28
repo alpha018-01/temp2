@@ -1,6 +1,4 @@
-import shutil
-
-from flask import Flask, after_this_request, send_file, render_template
+from flask import Flask, send_file, render_template
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
 
